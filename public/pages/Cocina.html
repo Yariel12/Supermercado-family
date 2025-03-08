@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Productos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/productos.js"></script>
+  </head>
+  <body class="text-gray-900">
+    <header
+      class="bg-[#233212] text-white shadow-md p-4 flex justify-between items-center flex-wrap"
+    >
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Logo" class="w-16 sm:w-20 h-auto" />
+      </a>
+
+      <!-- Botón hamburguesa -->
+      <button id="menu-toggle" class="sm:hidden text-white focus:outline-none">
+        ☰
+      </button>
+
+      <nav id="menu" class="hidden sm:block w-full sm:w-auto">
+        <ul
+          class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-center sm:text-left"
+        >
+          <li>
+            <a
+              href="../index.html"
+              class="font-semibold hover:text-[#6f8a4f] transition"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              href="./productos.html"
+              class="font-semibold hover:text-[#6f8a4f] transition"
+              >Productos</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Ofertas</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script>
+      document
+        .getElementById("menu-toggle")
+        .addEventListener("click", function () {
+          document.getElementById("menu").classList.toggle("hidden");
+        });
+    </script>
+
+    <main class="container mx-auto p-4">
+      <h1 class="text-3xl font-bold my-6">Cocina</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Producto 1 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://www.lacuracaonline.com/media/catalog/product/4/6/462271100016.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+              alt="Samsung QLED 8K Q950TS"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Estufa MasterCook 5000</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">Lo ponen ustedes</p>
+        </div>
+        <!-- Producto 2 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://www.cbfood.it/wp-content/uploads/2018/10/391000.jpg"
+              alt="Producto 2"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">EcoFlame Pro estufa</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <!-- Producto 3 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
+        >
+          <div class="mb-4">
+            <img
+              src="https://img.plazalama.com.do/3296cc88-a3aa-40ce-692d-d0191b618000/width=500,height=500"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">GasTech Elite</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://www.bertos.com/cache/media/2024/10/21606100_g6f6pw_fg1_2654.png/658a4d8ef8c250ebaf03466cbc844ed8.png"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">TurboHeat X4</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://m.media-amazon.com/images/I/61jlQXfKVzL.jpg"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">VQuickHeat 900</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://m.media-amazon.com/images/I/61wvrwnU4CL._AC_UF894,1000_QL80_.jpg "
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Micro Chef Pro</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://www.titaniccenter.com/cdn/shop/files/1000029681Hornomicroondas20litrosultrawavesilverGtronic2.png?v=1740774535&width=460"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">UltraWave X</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://m.media-amazon.com/images/I/61LqwXBpb7L._AC_UF894,1000_QL80_.jpg"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">ExpressCook 700</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://quineo.com/wp-content/uploads/2023/05/Blademaster_3A-300x300.jpg"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">BladeMaster X</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://twicpics.tefal.es/https://dam.groupeseb.com/m/42041496de7b8514/Digital-Tefal-Precision-Santoku-16-5cm-0768-63CD-tif.tif?timestamp=20240606170524"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Chef's Precision</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://m.media-amazon.com/images/I/81i+8McfPdL._AC_UF1000,1000_QL80_.jpg"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">Vizio P-Series Quantum X</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+        <div
+          class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-shadow cursor-pointer"
+        >
+          <div class="mb-4">
+            <img
+              src="https://m.media-amazon.com/images/I/71-6t3zj9HL._AC_UF350,350_QL80_.jpg"
+              alt="Producto 3"
+              class="w-full h-48 object-cover rounded-lg mb-4"
+            />
+          </div>
+          <h3 class="font-semibold text-lg mb-2">TCL 6-Series QLED</h3>
+          <p class="font-bold text-xl text-gray-800 mb-4">
+            Descripción del producto
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

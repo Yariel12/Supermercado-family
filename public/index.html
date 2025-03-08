@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SuperMercado la Familia</title>
+  </head>
+  <body class="text-gray-900">
+    <header
+      class="bg-[#233212] text-white shadow-md p-4 flex justify-between items-center"
+    >
+      <a href="./index.html">
+        <img src="./images/logo.png" alt="Logo" class="w-20 h-auto" />
+      </a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li>
+            <a
+              href="./index.html"
+              class="font-semibold hover:text-[#6f8a4f] transition"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Productos</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Ofertas</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container mx-auto p-4">
+      <section class="bg-white rounded-lg p-6 m-4 shadow-lg">
+        <div class="text-center mb-4">
+          <h1 class="text-4xl font-bold text-gray-800">Sobre nosotros</h1>
+        </div>
+
+        <div class="flex gap-4">
+          <!-- Imagen principal -->
+          <div class="flex-1">
+            <img
+              src="./images/body-img/la familia.png"
+              alt=""
+              class="rounded-lg w-full h-full object-cover shadow-md"
+            />
+          </div>
+
+          <!-- Contenedor de imágenes secundarias -->
+          <div class="flex flex-col gap-4 w-1/3">
+            <img
+              src="./images/body-img/oferta.png"
+              alt=""
+              class="rounded-lg w-full h-1/2 object-cover shadow-md"
+            />
+            <img
+              src="./images/body-img/tarjeta.png"
+              alt=""
+              class="rounded-lg w-full h-1/2 object-cover shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
+      <h1 class="text-3xl font-bold text-center my-6">
+        Verduras, Yogurt y Espaguetti
+      </h1>
+
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+        <div class="flex justify-center">
+          <img
+            src="./images/body-img/verduras.jpg"
+            alt="La Familia"
+            class="rounded-lg shadow-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./images/body-img/product.png"
+            alt="Producto"
+            class="rounded-lg shadow-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./images/body-img/muu.jpg"
+            alt="Muu"
+            class="rounded-lg shadow-lg w-full h-auto object-cover"
+          />
+        </div>
+      </section>
+
+      <h1 class="text-3xl font-bold text-center my-6">
+        Electrodomésticos y Muebles
+      </h1>
+
+      <div class="bg-[#6f8a4f] rounded-lg shadow-md overflow-hidden mb-6">
+        <div class="relative p-6">
+          <div
+            class="absolute top-6 left-6 bg-[#9da456] text-white p-3 rounded-lg"
+          >
+            <div class="text-sm">Hasta un</div>
+            <div class="text-5xl font-bold">30%</div>
+            <div class="text-sm">
+              de descuento en
+              <br />
+              Electrodomésticos
+            </div>
+            <div class="text-xs mt-2 bg-[#233212] p-1 rounded">
+              ADICIONAL 25%
+            </div>
+          </div>
+
+          <div class="flex justify-center items-center gap-4">
+            <a href="">
+              <img
+                src="./images/body-img/cama.webp"
+                alt="cama"
+                width="300"
+                height="150"
+                class="object-contain"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/body-img/mueble1.webp"
+                alt="mueble"
+                width="200"
+                height="150"
+                class="object-contain"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./images/body-img/lamparas.png"
+                alt="lampara"
+                width="200"
+                height="150"
+                class="object-contain"
+              />
+            </a>
+            <a href="../public/pages/Cocina.html">
+              <img
+                src="https://png.pngtree.com/png-vector/20240129/ourmid/pngtree-stove-png-on-a-white-background-png-image_11565450.png"
+                alt="estufa"
+                width="200"
+                height="150"
+                class="object-contain"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="rounded-lg shadow-md overflow-hidden bg-[#6f8a4f]">
+          <div class="relative p-6">
+            <div
+              class="absolute top-6 left-6 bg-[#9da456] text-white p-3 rounded-lg"
+            >
+              <div class="text-sm">Hasta un</div>
+              <div class="text-5xl font-bold">40%</div>
+              <div class="text-sm">
+                de descuento en
+                <br />
+                Televisores
+              </div>
+              <div class="text-xs mt-2 bg-[#233212] p-1 rounded">
+                ADICIONAL 25%
+              </div>
+            </div>
+
+            <a href="./pages/electronica.html">
+              <div class="flex justify-center mt-16">
+                <img
+                  src="./images/body-img/tv.png"
+                  alt="Televisor"
+                  width="300"
+                  height="200"
+                  class="object-contain"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-[#6f8a4f] rounded-lg shadow-md overflow-hidden">
+          <div class="relative p-6">
+            <div
+              class="absolute top-6 left-6 bg-[#9da456] text-white p-3 rounded-lg"
+            >
+              <div class="text-sm">Hasta un</div>
+              <div class="text-5xl font-bold">30%</div>
+              <div class="text-sm">
+                de descuento en
+                <br />
+                Pequeños Electros
+              </div>
+              <div class="text-xs mt-2 bg-[#233212] p-1 rounded">
+                ADICIONAL 25%
+              </div>
+            </div>
+
+            <div class="flex justify-center mt-16">
+              <a href="./pages/Cocina.html">
+                <img
+                  src="./images/body-img/Microwave.png"
+                  alt="Microondas"
+                  width="250"
+                  height="200"
+                  class="object-contain"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!---Footer-->
+    <footer class="pt-8 pb-6 border bg-[#233212] text-white">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-[#6f8a4f] font-bold mb-4">Sobre Nosotros</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Trabaja Con Nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Términos Y Condiciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Política De Privacidad Y Uso De Datos Personales</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Envíos Y Entregas</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Cambios Y Devoluciones</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Servicio Al Cliente -->
+          <div>
+            <h3 class="text-[#6f8a4f] font-bold mb-4">Servicio Al Cliente</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Nuestras Tiendas</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Devoluciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Central De Ayuda</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-[#6f8a4f] font-bold mb-4">Mi Cuenta</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-white hover:text-gray-800">Mi Cuenta</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Mi Carrito</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Mis Ordenes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-800"
+                  >Mis Favoritos</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media y CCN -->
+          <div class="md:col-span-3 lg:col-span-1">
+            <div class="flex flex-col items-end space-y-4">
+              <!-- Social Media Icons -->
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-red-500">
+                  <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-red-500">
+                  <i class="fab fa-facebook-f text-2xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-red-500">
+                  <i class="fab fa-twitter text-2xl"></i>
+                </a>
+              </div>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    class="gmap_iframe"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=310&amp;height=210&amp;hl=en&amp;q=Santo Domingo&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ></iframe
+                  ><a href="https://sprunkin.com/"></a>
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 310px;
+                    height: 210px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 310px;
+                    height: 210px;
+                  }
+                  .gmap_iframe {
+                    width: 310px !important;
+                    height: 210px !important;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
