@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contacto - SuperMercado la Familia</title>
+  </head>
+  <body class="bg-[#cec9ba] text-[#233212]">
+    <header
+      class="bg-[#233212] text-white shadow-md p-4 flex justify-between items-center"
+    >
+      <a href="./index.html">
+        <img src="../images/logo.png" alt="Logo" class="w-20 h-auto" />
+      </a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li>
+            <a
+              href="../index.html"
+              class="font-semibold hover:text-[#6f8a4f] transition"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="#" class="font-semibold hover:text-[#6f8a4f] transition"
+              >Ofertas</a
+            >
+          </li>
+          <li>
+            <a
+              href="contacto.html"
+              class="font-semibold hover:text-[#6f8a4f] transition"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mx-auto p-6 bg-white shadow-lg">
+      <h1 class="text-3xl font-bold text-center text-[#233212]">Contacto</h1>
+      <p class="text-center mt-2 text-[#6f8a4f]">
+        Estamos aquí para ayudarte. Contáctanos por los siguientes medios:
+      </p>
+
+      <div class="mt-6 space-y-4">
+        <p><strong>📍 Dirección:</strong> Calle Principal #123, Ciudad</p>
+        <p><strong>📞 Teléfono:</strong> +1 809-123-4567</p>
+        <p><strong>📧 Correo:</strong> contacto@supermercadolafamilia.com</p>
+        <p>
+          <strong>🌐 Sitio web:</strong>
+          <a
+            href="https://supermercadolafamilia.com"
+            class="text-[#9da456] underline"
+            >https://supermercadolafamilia.com</a
+          >
+        </p>
+      </div>
+
+      <form class="mt-6 bg-[#9da456] p-4 rounded-lg">
+        <h2 class="text-xl font-semibold text-white">Envíanos un mensaje</h2>
+        <input
+          type="text"
+          placeholder="Tu nombre"
+          class="w-full p-2 mt-2 rounded-md"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Tu correo"
+          class="w-full p-2 mt-2 rounded-md"
+          required
+        />
+        <textarea
+          placeholder="Tu mensaje"
+          class="w-full p-2 mt-2 rounded-md"
+          rows="4"
+          required
+        ></textarea>
+        <button class="bg-[#233212] text-white px-4 py-2 rounded-md mt-2">
+          Enviar
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
